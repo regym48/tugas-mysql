@@ -1,0 +1,9 @@
+1. Database adalah suatau data yang terorganisir yang terdiri dari beberapa tabel, dimana pada setiap tabel memiliki primary key sebagai pengidentifikasi suatu tabel
+2. Relational Database Management System, merupakan suatu konsep untuk menghubungkan atau merelasi tabel yang satu dengan yang lainnya melalui kunci yang dimiliki
+3. Flat Model : Menyimpan data tanpa aturan dan cara penulisan tertentu.  
+   Hierarchical Model : Data terorganisasi dari atas ke bawah.  
+   Network Model : Pengembangan dari hierarchical model.  
+   Relational Model  : Menyusun data ke dalam bentuk tabel yang saling terhubung.
+   Object Oriented Model : Menggunakan pendekatan object dalam menyimpan data.  
+4. Oracle, Microsoft SQL Server,PostgreSQL, MongoDB, Mariadb, Redis
+5. Speed,Reliability,Scalability,User Friendly,Portability and Standard Compliance 

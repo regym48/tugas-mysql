@@ -1,0 +1,7 @@
+1. adalah kumpulan karakter yang bisa dipahami oleh komputer. Sedangkan collation adalah aturan pengurutan data berdasarkan charset.
+2. Schema
+3. SHOW CHARACTER SET;
+4. SHOW COLLATION;
+5. INT, FLOAT, DOUBLE, REAL, DECIMAL
+6. CHAR, VARCHAR, TEXT, MEDIUMTEXT, LONGTEXT
+7. DATE, TIME, DATETIME

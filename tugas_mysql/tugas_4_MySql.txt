@@ -1,0 +1,11 @@
+1. CREATE DATABASE permainan;
+2 dan 3. USE permainan;
+   CREATE TABLE sepakbola(
+	id_pemain INT (11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	nama_pemain VARCHAR (100) NOT NULL,
+	usia_pemain INT (2) NOT NULL,
+	posisi_pemain VARCHAR (100) NOT NULL
+	);
+4. RENAME TABLE sepakbola TO sepakbola_indonesia;
+5. DROP TABLE sepakbola_indonesia;
+   DROP DATABASE permainan;

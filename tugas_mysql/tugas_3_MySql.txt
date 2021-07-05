@@ -1,0 +1,5 @@
+1. Cross Platform, Apache, MySql, PHP, Perl
+2. START->All Programs->XAMPP->XAMPP Control Panel
+3. MySql dan Apache
+4. setelah modul dinyalakan buka http://localhost di browser lalu pilih phpmyadmin
+5. ketikkan c:\xampp\mysql\bin\mysql -u root pada command prompt atau cmd

@@ -1,0 +1,5 @@
+1. create database importdata;
+   use importdata;
+2. CREATE TABLE buahbuahn(
+	id_buah int(10) PRIMARY KEY, nama_buah varchar(50), varietas_buah varchar(50));
+3. source d:\\buahbuahan.sql

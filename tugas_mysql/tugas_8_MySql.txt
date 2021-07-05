@@ -1,0 +1,7 @@
+1. SELECT kota, kec, luas, penduduk FROM tugas_populasi;
+2. SELECT kota as Nama_Kota, kec as Jumlah_Kecamatan, kel as Jumlah_Kelurahan FROM tugas_populasi;
+3. SELECT * FROM tugas_populasi ORDER BY kec DESC;
+4. SELECT * FROM tugas_populasi ORDER BY kel DESC LIMIT 2, 5;
+5. SELECT * FROM tugas_populasi WHERE kota = "Depok";
+6. SELECT prov, kota, penduduk FROM tugas_daftar_provinsi, tugas_populasi WHERE ibukota = kota ORDER BY penduduk DESC;
+7. SELECT * FROM tugas_populasi WHERE kec BETWEEN 20 AND 30;

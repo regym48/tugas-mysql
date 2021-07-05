@@ -1,0 +1,6 @@
+1. CREATE USER 'Niomic' IDENTIFIED BY 'c0b4d1b4c4';
+2. UPDATE mysql.user SET Password=PASSWORD('indonesiaku') WHERE USER='Niomic' Host = 'localhost';
+   FLUSH PRIVILEGES;
+3. GRANT SELECT ON belajar.mahasiswa TO Niomic@localhost;
+4. delete from user where User='Niomic';
+   FLUSH PRIVILEGES;

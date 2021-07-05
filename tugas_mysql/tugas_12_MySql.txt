@@ -1,0 +1,10 @@
+1. CREATE VIEW nilai_ipk (nim, nama, IPK) AS
+    SELECT nim, nama, ROUND((semester_1+semester_2+semester_3)/3)
+    FROM nilai_mahasiswa; 
+2. CREATE VIEW nilai_ipk_format AS
+    SELECT 
+    concat (nama,(semester_1+semester_2+semester_3)DIV 3) as 'Nama_dan_IPK'
+    FROM nilai_mahasiswa; 
+3. INSERT INTO nilai_mahasiswa VALUES
+	('17090000', 'Rihana', 3.50, 2.80, 3.50); kedua view langsung terupdate
+4. SELECT * FROM nilai_ipk_format WHERE Nama_dan_IPK LIKE 'R%';

@@ -1,0 +1,21 @@
+DELIMITER //
+CREATE PROCEDURE penilaian(
+	IN nim2 int(10)
+)
+BEGIN
+	SELECT * semester_1
+ 	FROM nilai_mahasiswa
+	WHERE nim = nim2;
+	IF semester_1 <= 1.00 THEN
+                SELECT 'Serius kuliah g sih?';
+        ELSEIF semester_1 >=1.01 <= 2.00 THEN
+                SELECT 'Kebanyakan main';
+        ELSEIF semester_1 >=2.01 <= 3.00 THEN
+                SELECT 'Berusaha lagi';
+        ELSEIF semester_1 >=3.01 <= 4.00 THEN
+                SELECT 'Mantap, pertahankan!';
+        ELSE
+                SELECT 'Nilai tidak sesuai';
+        END IF;
+END //
+DELIMITER ;

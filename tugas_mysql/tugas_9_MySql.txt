@@ -1,0 +1,6 @@
+1. CREATE DATABASE niomic
+   CREATE TABLE mahasiswa_niomic(
+	nim int(10) PRIMARY KEY, nama varchar(50), asal varchar(50), jurusan varchar(50), nilai_uan float(10));
+2. update mahasiswa_niomic set nama = "Irfan Arifin", asal = "Lampung" WHERE nim=17020217;
+3. update IGNORE mahasiswa_niomic set nilai_uan = 5000 WHERE nama = "Husli Khairan";
+4. REPLACE INTO mahasiswa_niomic VALUES ('17090141', 'Lidya Fitriana', 'Surabaya', 'Kimia', 290.54);

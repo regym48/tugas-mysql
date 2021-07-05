@@ -1,0 +1,10 @@
+1. Atribut : kolom pada tabel database
+   Tupel   : baris pada tebel database
+   Relation: kumpulan Atribut dan Tupel atau biasa disebut tabel
+2. a. NPM, Nama, Jenis Kelamin, Jurusan
+   b. 57119789, Andi Gunawan, Laki-Laki, Akuntansi
+      51319653, Leshi Puspitasari, Wanita, Hukum
+      56719451, Manimilianus Anthoni, Laki-Laki, Ilmu Komputer
+   c. 56719451,Leshi Puspitasari,Hukum,51319653
+3. Primary Key : adalah kolom yang akan menjadi identitas dari setiap baris tabel
+   Candidate Key : adalah satu atau beberapa kolom di dalam tabel yang bisa mengidentifikasi tiap baris dari tabel tersebut
